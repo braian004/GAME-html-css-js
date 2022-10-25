@@ -1,0 +1,126 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOVWS4CACOOOy0wpS7xkr8Z",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/braian004/GAME-html-css-js/blob/main/Untitled14.ipy\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RyP6LvjeJN4h",
+        "outputId": "176ab9a2-9b52-4887-b364-53b822dcb493"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "HEllo WOR\n"
+          ]
+        }
+      ],
+      "source": [
+        "a = \"HEllo WOR\"\n",
+        "print(a.strip())"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = \"Hello ,World!\"\n",
+        "print(a.replace(\"Hell\",\"j\"))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ejBCEN8xKe9I",
+        "outputId": "87fb1f91-8fd3-4ad0-e59c-6864d1496d16"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "jo ,World!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = \"HEllo,World\"\n",
+        "print(a.split(\",\"))"
+      ],
+      "metadata": {
+        "id": "UCc8JnPlLwhU",
+        "outputId": "25c2d8c1-1b27-4070-c1fb-f1c4a5fc5a10",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['HEllo', 'World']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = \"Hello, World!\"\n",
+        "print(a.lower()) "
+      ],
+      "metadata": {
+        "id": "umvoZao8Nv60",
+        "outputId": "db96780d-0515-4e4b-f1d8-7faeabdff9fd",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hello, world!\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
